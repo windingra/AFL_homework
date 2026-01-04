@@ -24,7 +24,7 @@ echo "[*] Prepare seeds..."
 printf "A"  > "$IN_DIR/seed1"
 printf "FU" > "$IN_DIR/seed2"
 
-echo "[*] Run afl-fuzz (建议运行 1~3 分钟后 Ctrl+C 结束)..."
+echo "[*] Run afl-fuzz "
 echo "[*] Log -> $STAGE_LOG"
 AFL_NO_UI=1 "$AFL_DIR/afl-fuzz" -i "$IN_DIR" -o "$OUT_DIR" -- "$TARGET_BIN" > "$STAGE_LOG" 2>&1
 
