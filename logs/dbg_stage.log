@@ -1,0 +1,1029 @@
+[0;36mafl-fuzz [1;97m2.57b[0m by <lcamtuf@google.com>
+[1;92m[+] [0mDisabling the UI because AFL_NO_UI is set.[0m
+[1;92m[+] [0mYou have 8 CPU cores and 1 runnable tasks (utilization: 12%).[0m
+[1;92m[+] [0mTry parallel jobs - see /usr/local/share/doc/afl/parallel_fuzzing.txt.[0m
+[1;94m[*] [0mChecking CPU core loadout...[0m
+[1;92m[+] [0mFound a free CPU core, binding to #0.[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;94m[*] [0mSetting up output directories...[0m
+[1;92m[+] [0mOutput directory exists but deemed OK to reuse.[0m
+[1;94m[*] [0mDeleting old session data...[0m
+[1;92m[+] [0mOutput dir cleanup successful.[0m
+[1;94m[*] [0mScanning '/home/zyc/AFL-mutation-lab/work/in'...[0m
+[1;92m[+] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,orig:seed1'...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;90m    len = 1, map size = 2, exec speed = 539 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000001,orig:seed2'...[0m
+[1;90m    len = 2, map size = 2, exec speed = 667 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m1 favored, 0 variable, 2 total
+[1;90m       Bitmap range : [0m2 to 2 bits (average: 2.00 bits)
+[1;90m        Exec timing : [0m539 to 667 us (average: 603 us)
+[0m
+[1;94m[*] [0mNo -t option specified, so I'll use exec timeout of 20 ms.[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #0 (2 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (4 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #3 (4 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[1;94m[*] [0mEntering queue cycle 2.[0m
+[1;94m[*] [0mFuzzing test case #0 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #3 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mEntering queue cycle 3.[0m
+[1;94m[*] [0mFuzzing test case #0 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 9
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 8
+[1;94m[*] [0mEntering queue cycle 4.[0m
+[1;94m[*] [0mFuzzing test case #0 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 4
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 5.[0m
+[1;94m[*] [0mFuzzing test case #0 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #3 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 6.[0m
+[1;94m[*] [0mFuzzing test case #0 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #3 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (5 total, 0 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[1;94m[*] [0mFuzzing test case #5 (6 total, 0 uniq crashes found)...[0m
+[DBG] stage=bitflip 1/1
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 7.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 8.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 9
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 9.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 10.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 11.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 7
+[DBG] stage=splice 11
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 12.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 6
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[1;94m[*] [0mEntering queue cycle 13.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 14.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 15.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 16.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 7
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 17.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 18.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 4
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 19.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 5
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 20.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 21.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mEntering queue cycle 22.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 11
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 23.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 4
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 3
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 11
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 4
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[1;94m[*] [0mEntering queue cycle 24.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 3
+[DBG] stage=splice 12
+[DBG] stage=splice 14
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 14
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[1;94m[*] [0mEntering queue cycle 25.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 6
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 12
+[DBG] stage=splice 13
+[DBG] stage=splice 15
+[1;94m[*] [0mFuzzing test case #3 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 3
+[DBG] stage=splice 4
+[DBG] stage=splice 5
+[DBG] stage=splice 8
+[DBG] stage=splice 10
+[DBG] stage=splice 11
+[DBG] stage=splice 13
+[1;94m[*] [0mFuzzing test case #4 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 2
+[DBG] stage=splice 7
+[DBG] stage=splice 9
+[DBG] stage=splice 12
+[1;94m[*] [0mFuzzing test case #5 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[DBG] stage=splice 1
+[DBG] stage=splice 4
+[DBG] stage=splice 6
+[DBG] stage=splice 7
+[DBG] stage=splice 8
+[DBG] stage=splice 9
+[DBG] stage=splice 10
+[DBG] stage=splice 13
+[DBG] stage=splice 14
+[1;94m[*] [0mEntering queue cycle 26.[0m
+[1;94m[*] [0mFuzzing test case #0 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #1 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[1;94m[*] [0mFuzzing test case #2 (6 total, 1 uniq crashes found)...[0m
+[DBG] stage=havoc
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;92m[+] [0mWe're done here. Have a nice day!
+[0m
